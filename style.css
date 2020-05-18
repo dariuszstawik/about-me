@@ -23,5 +23,34 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
 
+}
+
+.business-card__personal-info {
+    margin-left: 32px;
+}
+
+.business-card__personal-info__name {
+    margin:0;
+
+}
+
+.business-card__presonal-info__workplace {
+    margin: 0;
+    font-style: italic;
+    color: rgba(84, 84, 84, 1);
+    font-size: 18px;
+}
+
+.business-card__personal-info__description {
+    margin: 24px 0;
+
+}
+
+strong {
+    font-weight: normal;
+    color: rgba(237, 109, 5, 1);
 }
