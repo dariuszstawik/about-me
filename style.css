@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgba(44, 33, 65, 1);
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.business-card {
+    width: 624px;
+    background-color: rgba(248, 248, 248, 1);
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
